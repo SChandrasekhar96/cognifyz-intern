@@ -1,0 +1,39 @@
+h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container .row .head {
+  font-size: 20px;
+  font-weight: 600;
+}
+.container .row .item {
+  margin: 1px;
+  border: 2px solid#000;
+}
+.container .row .se {
+  width: 70px;
+}
+.container .row .image {
+  margin: 7px;
+  border: 2px solid#000;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container .row .image img {
+  margin: 5px;
+}
+
+.container .row .name {
+  margin: 7px;
+  border: 2px solid#000;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}

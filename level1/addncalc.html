@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        text-align: center;
+      }
+      input {
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(146, 229, 229);
+        color: black;
+        font-size: 15px;
+        border-radius: 10px;
+      }
+      button {
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(94, 244, 114);
+        border-radius: 10px;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+    <title>Add Two Numbers</title>
+    <script>
+      function add() {
+        var numOne = document.getElementById("numOne").value;
+        var numTwo = document.getElementById("numTwo").value;
+        var result = parseInt(numOne) + parseInt(numTwo);
+        alert(result);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Add Two Numbers</h1>
+    <input type="number" id="numOne" />
+    <input type="number" id="numTwo" />
+    <button onclick="add()">Add</button>
+  </body>
+</html>
